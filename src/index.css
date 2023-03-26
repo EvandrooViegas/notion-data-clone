@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-neutral-900 text-white;
+    min-height: 100vh;
+}
+
+.v-center {
+    top: 50%;
+    transform: translateY(-50%);
+}
